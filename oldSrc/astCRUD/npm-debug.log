@@ -1,0 +1,224 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'esprima' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 warn package.json astCRUD@0.0.0 No description
+5 warn package.json astCRUD@0.0.0 No repository field.
+6 warn package.json astCRUD@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'esprima', null ]
+9 verbose cache add name=undefined spec="esprima" args=["esprima",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'esprima',
+10 verbose parsed url   path: 'esprima',
+10 verbose parsed url   href: 'esprima' }
+11 silly lockFile 69931885-esprima esprima
+12 verbose lock esprima /home/evan/.npm/69931885-esprima.lock
+13 silly lockFile 69931885-esprima esprima
+14 silly lockFile 69931885-esprima esprima
+15 verbose addNamed [ 'esprima', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 1e02aa9d-esprima esprima@
+18 verbose lock esprima@ /home/evan/.npm/1e02aa9d-esprima.lock
+19 silly addNameRange { name: 'esprima', range: '*', hasData: false }
+20 verbose request where is /esprima
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 792403a5a9950b8a
+23 verbose url raw /esprima
+24 verbose url resolving [ 'https://registry.npmjs.org/', './esprima' ]
+25 verbose url resolved https://registry.npmjs.org/esprima
+26 verbose request where is https://registry.npmjs.org/esprima
+27 info trying registry request attempt 1 at 23:21:57
+28 http GET https://registry.npmjs.org/esprima
+29 http 200 https://registry.npmjs.org/esprima
+30 silly registry.get cb [ 200,
+30 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+30 silly registry.get     etag: '"DCJADOBNPJUM5FBP4WDGFYAA3"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=300',
+30 silly registry.get     'content-length': '69479',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Tue, 16 Feb 2016 05:21:57 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '83',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+30 silly registry.get     'x-cache': 'HIT',
+30 silly registry.get     'x-cache-hits': '3',
+30 silly registry.get     'x-timer': 'S1455600117.587000,VS0,VE0',
+30 silly registry.get     vary: 'Accept' } ]
+31 silly addNameRange number 2 { name: 'esprima', range: '*', hasData: true }
+32 silly addNameRange versions [ 'esprima',
+32 silly addNameRange   [ '0.7.0',
+32 silly addNameRange     '0.8.0',
+32 silly addNameRange     '0.8.1',
+32 silly addNameRange     '0.8.2',
+32 silly addNameRange     '0.9.0',
+32 silly addNameRange     '0.9.1',
+32 silly addNameRange     '0.9.2',
+32 silly addNameRange     '0.9.3',
+32 silly addNameRange     '0.9.4',
+32 silly addNameRange     '0.9.5',
+32 silly addNameRange     '0.9.6',
+32 silly addNameRange     '0.9.7',
+32 silly addNameRange     '0.9.8',
+32 silly addNameRange     '0.9.9',
+32 silly addNameRange     '1.0.0',
+32 silly addNameRange     '1.0.1',
+32 silly addNameRange     '1.0.2',
+32 silly addNameRange     '1.0.3',
+32 silly addNameRange     '1.0.4',
+32 silly addNameRange     '1.1.0',
+32 silly addNameRange     '1.1.1',
+32 silly addNameRange     '1.2.0',
+32 silly addNameRange     '1.2.1',
+32 silly addNameRange     '1.2.2',
+32 silly addNameRange     '1.2.3',
+32 silly addNameRange     '1.2.4',
+32 silly addNameRange     '2.0.0',
+32 silly addNameRange     '1.2.5',
+32 silly addNameRange     '2.1.0',
+32 silly addNameRange     '2.2.0',
+32 silly addNameRange     '2.3.0',
+32 silly addNameRange     '2.4.0',
+32 silly addNameRange     '2.4.1',
+32 silly addNameRange     '2.5.0',
+32 silly addNameRange     '2.6.0',
+32 silly addNameRange     '2.7.0',
+32 silly addNameRange     '2.7.1',
+32 silly addNameRange     '2.7.2' ] ]
+33 verbose addNamed [ 'esprima', '2.7.2' ]
+34 verbose addNamed [ '2.7.2', '2.7.2' ]
+35 silly lockFile 617643d8-esprima-2-7-2 esprima@2.7.2
+36 verbose lock esprima@2.7.2 /home/evan/.npm/617643d8-esprima-2-7-2.lock
+37 silly lockFile 0499821d-js-org-esprima-esprima-2-7-2-tgz https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz
+38 verbose lock https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz /home/evan/.npm/0499821d-js-org-esprima-esprima-2-7-2-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz',
+39 verbose addRemoteTarball   'f43be543609984eae44c933ac63352a6af35f339' ]
+40 info retry fetch attempt 1 at 23:21:57
+41 verbose fetch to= /tmp/npm-11624-y4vw8IfN/registry.npmjs.org/esprima/-/esprima-2.7.2.tgz
+42 http GET https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz
+43 http 200 https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz
+44 silly lockFile 0499821d-js-org-esprima-esprima-2-7-2-tgz https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz
+45 silly lockFile 0499821d-js-org-esprima-esprima-2-7-2-tgz https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz
+46 silly lockFile 617643d8-esprima-2-7-2 esprima@2.7.2
+47 silly lockFile 617643d8-esprima-2-7-2 esprima@2.7.2
+48 silly lockFile 1e02aa9d-esprima esprima@
+49 silly lockFile 1e02aa9d-esprima esprima@
+50 silly resolved [ { name: 'esprima',
+50 silly resolved     description: 'ECMAScript parsing infrastructure for multipurpose analysis',
+50 silly resolved     homepage: 'http://esprima.org',
+50 silly resolved     main: 'esprima.js',
+50 silly resolved     bin:
+50 silly resolved      { esparse: './bin/esparse.js',
+50 silly resolved        esvalidate: './bin/esvalidate.js' },
+50 silly resolved     version: '2.7.2',
+50 silly resolved     files: [ 'bin', 'unit-tests.js', 'esprima.js' ],
+50 silly resolved     engines: { node: '>=0.10.0' },
+50 silly resolved     author: { name: 'Ariya Hidayat', email: 'ariya.hidayat@gmail.com' },
+50 silly resolved     maintainers: [ [Object] ],
+50 silly resolved     repository:
+50 silly resolved      { type: 'git',
+50 silly resolved        url: 'git+https://github.com/jquery/esprima.git' },
+50 silly resolved     bugs: { url: 'https://github.com/jquery/esprima/issues' },
+50 silly resolved     license: 'BSD-2-Clause',
+50 silly resolved     devDependencies:
+50 silly resolved      { 'codecov.io': '~0.1.6',
+50 silly resolved        'escomplex-js': '1.2.0',
+50 silly resolved        eslint: '~1.7.2',
+50 silly resolved        'everything.js': '~1.0.3',
+50 silly resolved        glob: '^5.0.15',
+50 silly resolved        istanbul: '~0.4.0',
+50 silly resolved        jscs: '~2.3.5',
+50 silly resolved        'json-diff': '~0.3.1',
+50 silly resolved        karma: '^0.13.11',
+50 silly resolved        'karma-chrome-launcher': '^0.2.1',
+50 silly resolved        'karma-detect-browsers': '^2.0.2',
+50 silly resolved        'karma-firefox-launcher': '^0.1.6',
+50 silly resolved        'karma-ie-launcher': '^0.2.0',
+50 silly resolved        'karma-mocha': '^0.2.0',
+50 silly resolved        'karma-safari-launcher': '^0.1.1',
+50 silly resolved        'karma-sauce-launcher': '^0.2.14',
+50 silly resolved        lodash: '^3.10.0',
+50 silly resolved        mocha: '^2.3.3',
+50 silly resolved        'node-tick-processor': '~0.0.2',
+50 silly resolved        regenerate: '~1.2.1',
+50 silly resolved        temp: '~0.8.3',
+50 silly resolved        'unicode-7.0.0': '~0.1.5' },
+50 silly resolved     keywords: [ 'ast', 'ecmascript', 'javascript', 'parser', 'syntax' ],
+50 silly resolved     scripts:
+50 silly resolved      { 'check-version': 'node test/check-version.js',
+50 silly resolved        jscs: 'jscs -p crockford esprima.js && jscs -p crockford test/*.js',
+50 silly resolved        eslint: 'node node_modules/eslint/bin/eslint.js -c .lintrc esprima.js',
+50 silly resolved        complexity: 'node test/check-complexity.js',
+50 silly resolved        'static-analysis': 'npm run check-version && npm run jscs && npm run eslint && npm run complexity',
+50 silly resolved        'unit-tests': 'node test/unit-tests.js',
+50 silly resolved        'grammar-tests': 'node test/grammar-tests.js',
+50 silly resolved        'regression-tests': 'node test/regression-tests.js',
+50 silly resolved        'all-tests': 'npm run generate-fixtures && npm run unit-tests && npm run grammar-tests && npm run regression-tests',
+50 silly resolved        'generate-fixtures': 'node tools/generate-fixtures.js',
+50 silly resolved        'browser-tests': 'npm run generate-fixtures && cd test && karma start --single-run',
+50 silly resolved        'saucelabs-evergreen': 'cd test && karma start saucelabs-evergreen.conf.js',
+50 silly resolved        'saucelabs-safari': 'cd test && karma start saucelabs-safari.conf.js',
+50 silly resolved        'saucelabs-ie': 'cd test && karma start saucelabs-ie.conf.js',
+50 silly resolved        'analyze-coverage': 'istanbul cover test/unit-tests.js',
+50 silly resolved        'check-coverage': 'istanbul check-coverage --statement 100 --branch 100 --function 100',
+50 silly resolved        'dynamic-analysis': 'npm run analyze-coverage && npm run check-coverage',
+50 silly resolved        test: 'npm run all-tests && npm run static-analysis && npm run dynamic-analysis',
+50 silly resolved        profile: 'node --prof test/profile.js && mv isolate*.log v8.log && node-tick-processor',
+50 silly resolved        benchmark: 'node test/benchmarks.js',
+50 silly resolved        'benchmark-quick': 'node test/benchmarks.js quick',
+50 silly resolved        codecov: 'istanbul report cobertura && codecov < ./coverage/cobertura-coverage.xml',
+50 silly resolved        downstream: 'node test/downstream.js',
+50 silly resolved        travis: 'npm test',
+50 silly resolved        circleci: 'npm test && npm run codecov && npm run downstream',
+50 silly resolved        appveyor: 'npm run all-tests && npm run browser-tests && npm run dynamic-analysis',
+50 silly resolved        droneio: 'npm test && npm run saucelabs-evergreen && npm run saucelabs-ie && npm run saucelabs-safari',
+50 silly resolved        'generate-regex': 'node tools/generate-identifier-regex.js' },
+50 silly resolved     gitHead: 'eb05a03b18b8433ab1ebeabea635a949219cd75e',
+50 silly resolved     _id: 'esprima@2.7.2',
+50 silly resolved     _shasum: 'f43be543609984eae44c933ac63352a6af35f339',
+50 silly resolved     _from: 'esprima@',
+50 silly resolved     _npmVersion: '2.14.7',
+50 silly resolved     _nodeVersion: '4.2.2',
+50 silly resolved     _npmUser: { name: 'ariya', email: 'ariya.hidayat@gmail.com' },
+50 silly resolved     dist:
+50 silly resolved      { shasum: 'f43be543609984eae44c933ac63352a6af35f339',
+50 silly resolved        tarball: 'http://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz' },
+50 silly resolved     _npmOperationalInternal:
+50 silly resolved      { host: 'packages-9-west.internal.npmjs.com',
+50 silly resolved        tmp: 'tmp/esprima-2.7.2.tgz_1454477276067_0.014412595424801111' },
+50 silly resolved     directories: {},
+50 silly resolved     _resolved: 'https://registry.npmjs.org/esprima/-/esprima-2.7.2.tgz' } ]
+51 info install esprima@2.7.2 into /home/evan/bin/astCRUD
+52 info installOne esprima@2.7.2
+53 verbose node_modules/esprima unbuild
+54 info preuninstall esprima@2.7.2
+55 info uninstall esprima@2.7.2
+56 verbose true,/home/evan/bin/astCRUD/node_modules,/home/evan/bin/astCRUD/node_modules unbuild esprima@2.7.2
+57 verbose /home/evan/bin/astCRUD/node_modules/.bin,[object Object] binRoot
+58 verbose node_modules/esprima unbuild
+59 info preuninstall esprima@2.7.2
+60 info uninstall esprima@2.7.2
+61 verbose true,/home/evan/bin/astCRUD/node_modules,/home/evan/bin/astCRUD/node_modules unbuild esprima@2.7.2
+62 verbose /home/evan/bin/astCRUD/node_modules/.bin,[object Object] binRoot
+63 info postuninstall esprima@2.7.2
+64 error Refusing to delete: /home/evan/bin/astCRUD/node_modules/.bin/esparse not in /home/evan/bin/astCRUD/node_modules/esprima
+File exists: /home/evan/bin/astCRUD/node_modules/.bin/esparse
+Move it away, and try again.
+65 error System Linux 4.2.0-27-generic
+66 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "esprima"
+67 error cwd /home/evan/bin/astCRUD
+68 error node -v v0.10.25
+69 error npm -v 1.4.21
+70 error path /home/evan/bin/astCRUD/node_modules/.bin/esparse
+71 error code EEXIST
+72 verbose exit [ 1, true ]
